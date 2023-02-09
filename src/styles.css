@@ -205,6 +205,7 @@ footer img:hover{
 }
 .menu-mobile{
     visibility: hidden;
+    opacity: 0;
 }
 .menu-mobile{
     position: fixed;
@@ -236,10 +237,14 @@ footer img:hover{
         background-repeat: no-repeat;
     }
     .mostrar{
+        transition: 1s;
+        opacity: 1;
         visibility: visible;
     }
-    .ocultar{
-        visibility: hidden;
+    .ocultar2{
+        transition: 1s;
+        opacity: 0;
+        visibility: visible;
     }
     nav{
         padding-top: 5%;

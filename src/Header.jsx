@@ -7,10 +7,11 @@ export const Header = () => {
   const menu = document.querySelector(".menu-mobile")
 
   const mostrarMobile = () => {
-    menu.classList.toggle("mostrar")
+    document.querySelector(".menu-mobile").classList.toggle("mostrar")
   }
+
   const ocultarMobile = () => {
-    menu.classList.toggle("mostrar")
+    document.querySelector(".menu-mobile").classList.toggle("ocultar2")
   }
   return (
     <div className='header'>
